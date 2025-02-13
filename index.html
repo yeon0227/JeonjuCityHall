@@ -1,0 +1,3479 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전주시청</title>
+  <meta name="description" content="전주시청 클론코딩 사이트입니다.">
+  <meta name="author" content="강승연">
+  <meta property="og:title" content="전주시청">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="assets/images/og.webp">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="group-top">
+        <div class="inner">
+          <div class="nuri-text">
+            <p>이 누리집은 대한민국 공식 전자정부 누리집입니다.</p>
+          </div>
+          <nav class="link-wrap">
+            <ul class="link-list">
+              <li class="link-item">
+                <a href="#" class="point">문화관광</a>
+              </li>
+              <li class="link-item">
+                <a href="#" class="point">완산구청</a>
+              </li>
+              <li class="link-item">
+                <a href="#" class="point">덕진구청</a>
+              </li>
+              <li class="link-item">
+                <a href="#" class="link">보건소</a>
+              </li>
+              <li class="link-item">
+                <a href="#" class="link">도서관</a>
+              </li>
+              <li class="link-item">
+                <a href="#" class="link">시의회</a>
+              </li>
+            </ul>
+            <ul class="util-list">
+              <li class="util-item">
+                <a href="#" class="item login">로그인</a>
+              </li>
+              <li class="util-item">
+                <a href="#" class="item korean">한국어</a>
+              </li>
+              <li class="util-item">
+                <a href="#" class="item dark">다크모드</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="group-nav">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="#" class="logo-inner">
+              <span class="blind">한바탕 전주 세계를 비빈다.</span>
+            </a>
+          </h1>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item grid4">
+                <a href="#" class="title">시민참여</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">시민제안</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시민제안제도</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">공모제안</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">공개제안</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">시민의견</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자유게시판</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">칭찬합시다</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">기부천사</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">기부천사안내</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">한바탕전주 시민대토론회</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item grid4">
+                <a href="#" class="title">전주소식</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">알림마당</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">새소식</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">공연/행사</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주간행사</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주요사업(공사)알림방</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">유관기관 소식</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">일자리 정보</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">공고</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">고시/공고</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인사정보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시험/채용</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주시보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">입법예고</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">개인정보 제3자제공</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">시정뉴스룸</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">보도자료</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">해명·설명자료</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">사진자료</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">영상자료</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주홍보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주사진DB갤러리</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주시민기록관</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시정소식지<전주다움></span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">문화관광테마매거진<전주시대></span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여행매거진<스토리J></span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">청각장애인을 위한 시정소식</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">홍보책자갤러리</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="title">민원365</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">민원제도안내</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">천년전주 콜센터</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원 사전심사 제도</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원인 후견인제</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원 사전상담 예약제</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원인 편의를 위한 상담청구</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">영조물 배상공제</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">민원정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원편람</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">무인민원발급기</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원서식</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">신고센터</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">국민신문고</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">청렴포털(국민권익위원회)</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">예산낭비신고센터</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">부실공사신고센터</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">규제개혁</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">공익신고 소개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">안전신문고</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">소극행정 신고센터</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">민원신청</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">120민원 주요질문</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정부24</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민원신청</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">지방세</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정보통신사용전검사</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">여권민원</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권개요</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권신청발급</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권기재사항변경</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권의 재발급</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권보관 및 반납/습득</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여권민원서식</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="title">정보공개</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">정보공개안내</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정보공개제도안내</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">비공개 대상정보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정보공개목록</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정보공개청구</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">사전정보공표</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자주 찾는 사전정보공표 자료실</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">행정정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">조직정보 공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인사·채용 통계</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시정백서</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">용역 결과 공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">정책실명제</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">계약정보공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주시 위원회</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주시 민간전문가 위촉현황</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">재정정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">예산공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">결산현황</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">재정공시</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">세입세출 운용현황</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">참여예산</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">보조사업통합관리시스템</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">업무추진비</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">국공유재산</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">성인지예산</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">채무관리계획</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">기금운영</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">지방재정투자심사 결과</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">인권정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인권행정</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인권정책</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인권위원회 소개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인권침해 신고</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인권센터</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자료실</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">청렴정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">감사결과공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">부패공직자 처리결과 공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">청렴시책 공개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">지방규제 개혁 지원을 위한 사전 컨설팅감사 운영</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">적극행정</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">제도소개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">카드뉴스·웹툰</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">알림·소식</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">적극행정 공무원 시민 추천</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">출연기관 경영공시</a>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">상품권 구매/사용 내역</a>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">공공데이터 개방</a>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">공공저작물 안내</a>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">완산구 소식</a>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">덕진구 소식</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="title">전주소개</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">시청안내</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">행정조직</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">청사안내</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">부서별 팩스번호</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시설물이용안내</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">찾아오시는 길</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주의 비전</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시정목표</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시정방침</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주요업무계획</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주의 브랜드</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">한바탕전주</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">한국의 꽃심 전주</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">관광브랜드</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시정슬로건</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도서관브랜드</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주시 상징물 사용승인 신청</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주의 상징</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">CI/캐릭터</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시화/시목/시조</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주의찬가</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주완판본체(서체)</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주정보</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">기본현황</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">행정구역</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인구현황</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주의 역사</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">명칭유래</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">행정연혁</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주역사</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">역사의현장</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">역대시장</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주통계</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주의 하루</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">통계보고서</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">통계DB</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전주시고향사랑기부제</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">고향사랑기부제 개요</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">자매/우호도시</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">국내 자매/우호도시</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">국제 자매/우호도시</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">전북특별자치도</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전북특별자치도란?</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전북특별자치도 용어 Q&A</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자료실</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">홍보영상 게시판</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">명예시민</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="title">분야별 정보</a>
+                <ul class="depth2-list">
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">가족/복지/보건</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">국민기초생활보장</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">저소득층 지원</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">사회복지관 현황</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">어린이/청소년</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">인구정책</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">여성/가족/다문화</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">어르신</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">장애인</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">동물복지</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">맞춤복지검색서비스</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자활사업</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">경제/일자리</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">경제/산업동향</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">지역경제</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">투자유치</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">사회적경제</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">세금</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">부동산정보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">생활/경제정보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">전주사랑상품권</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">일자리창출</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">온두레공동체</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">안전재난</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도시안전</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">재난안전</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">민방위</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">시민안전보험</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">풍수해보험</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">재난책임배상</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">도시/주택</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도시계획</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도시관리</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도시재생</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">부동산 가격 열람</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">옛 대한방직 부지 공론화</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">건축</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">공동주택</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">재개발/재건축</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주거환경</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주거복지/해피하우스</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">생활지리정보서비스</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">환경/청소/위생</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">도시환경</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">미세먼지</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">녹지공원</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">청소</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">위생</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">화학물질 안전관리</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">교육/역사/체육</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">평생교육</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">교육지원</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">풍남학사</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">교육역사</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">체육진흥</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">교통/차량/도로</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">교통정보</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">차량 등록·관리</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">주정차 단속</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">자전거</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">개인형 이동장치(PM)</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="depth2-item">
+                    <a href="#" class="depth2-title">맑은물</a>
+                    <ul class="depth3-list">
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">상하수도본부소개</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">상하수도 민원안내</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">수질정보(무료수질검사 신청)</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">홍보관</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">빗물이용시설 사용자</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">물이야기</span>
+                        </a>
+                      </li>
+                      <li class="depth3-item">
+                        <a href="#" class="title-wrap">
+                          <span class="depth3-title">상하수도요금사이버민원실</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="util-area">
+            <a href="#" class="util search">
+              <span class="blind">검색</span>
+            </a>
+            <a href="#" class="util menu">
+              <span class="blind">메뉴</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="group-search">
+        <div class="inner">
+          <div class="weather-area">
+            <div class="info">
+              <span class="desc">맑음</span>
+              <em class="degree">13℃</em>
+              <i class="weather-img">
+                <img src="./assets/images/common/weather_sun.png" alt="맑음">
+              </i>
+            </div>
+            <p class="air">
+              초미세먼지 8㎍/m³
+              <span class="good">좋음</span>
+            </p>
+          </div>
+          <div class="search-area">
+            <form method="get" class="search-form">
+              <fieldset class="search-field">
+                <div class="searchForm">
+                  <legend class="blind">검색</legend>
+                  <input type="text" placeholder="무엇을 도와드릴까요?" class="search-input">
+                  <button class="btn-submit">
+                    <span class="blind">전송</span>
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="btn-apply">
+            <a href="#" class="link-apply">
+              <i class="icon">HOT</i>
+              <h3 class="title">통합신청지원</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="container">
+      <div class="inner">
+        <div class="inner-cont1">
+          <section class="sc-news">
+            <h2 class="blind">주요 뉴스 및 시민 참여</h2>
+            <div class="con-wrap">
+              <section class="content news">
+                <h3 data-tab="#newsTab1" class="tab tab1 active">
+                  <div class="title-wrap">
+                    <span class="title">주요<br>뉴스</span>
+                  </div>
+                </h3>
+                <div id="newsTab1"class="group-content active">
+                  <div class="swiper">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news1.jpg" alt="2024년 하반기 청년 어학시험 응시료 지원사업 추진">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news2.jpg" alt="10월태극기달기">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news3.jpg" alt="2024년 전주시 부모학교 명강사 초청 강연">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news4.jpg" alt="전세사기 피해예방을 위한 주택 안심계약 상담창구 운영">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news5.jpg" alt="2024년 개별주택가격 열람 및 이의신청 기간">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news6.jpg" alt="2024년 공동주택가격 열람 및 이의신청 기간">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news7.jpg" alt="2024-2025절기 인플루엔자(독감) 무료 예방접종">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news8.jpg" alt="2024 제8회 치맥과 함께하는 먹go놀go즐기go 3go 축제(사랑나눔행사)">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news9.jpg" alt="전동성당 미디어파사드 공연 행사 안내">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news10.jpg" alt="전주시 국제기구 청년인턴십">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news11.jpg" alt="국립무형유산원 유네스코 인류무형유산 추천 공연">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news12.jpg" alt="전주페스타 2024 안내">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news13.jpg" alt="취약계층 어르신 무료 대상포진 예방접종 대상자 확대 안내">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news14.jpg" alt="생활폐기물 수거업체 안내, 생활쓰레기">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <img src="./assets/images/contents/news15.jpg" alt="전주시정연구원 전주 큰꿈, 특별공모전">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="swiper-bottom">
+                    <div class="desc-wrap">
+                      <p class="desc"></p>
+                    </div>
+                    <div class="control">
+                      <div class="fraction">
+                        <span class="curr">1</span>
+                        <i>/</i>
+                        <span class="total">?</span>
+                      </div>
+                      <button class="btn prev" aria-label="이전슬라이드"></button>
+                      <button class="btn pause" aria-label="슬라이드 정지"></button>
+                      <button class="btn next" aria-label="다음슬라이드"></button>
+                    </div>
+                    <a href="#" class="all-view">
+                      <span>모아보기</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <section class="content citizen">
+                <h3 data-tab="#newsTab2" class="tab tab2">
+                  <div class="title-wrap">
+                    <span class="title">시민<br>참여</span>
+                  </div>
+                </h3>
+                <div id="newsTab2"class="group-content">
+                  <div class="swiper">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_1.jpg" alt="행정안전부 공직선거비리 익명신고">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_2.png" alt="미래문화축제 2024 팔복 : THE BEGINNING">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_3.jpg" alt="국내외 관광객과 함께 한복입고 즐기는 일일프로젝트">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_4.jpg" alt="안녕, 새활용 Festival">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_5.jpg" alt="소상공인의 디지털전환과 온라인 판로 개척을 돕는 디지털커머스 전문기관 소담스퀘어 콘서트">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_6.jpg" alt="2024 전북전주 메타버스XR 콘텐츠 아이디어 공모전">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_7.jpg" alt="제218회 전주시 열린시민강좌">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_8.jpg" alt="2024전주세계문화주간">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_9.jpg" alt="전주시보건소 마음치유센터 10월 상담 및 프로그램 운영">
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <img src="./assets/images/contents/news2_10.jpg" alt="전주고향사랑 기부제">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="swiper-bottom">
+                    <div class="desc-wrap">
+                      <p class="desc"></p>
+                    </div>
+                    <div class="control">
+                      <div class="fraction">
+                        <span class="curr">1</span>
+                        <i>/</i>
+                        <span class="total">?</span>
+                      </div>
+                      <button class="btn prev" aria-label="이전슬라이드"></button>
+                      <button class="btn pause" aria-label="슬라이드 정지"></button>
+                      <button class="btn next" aria-label="다음슬라이드"></button>
+                    </div>
+                    <a href="#" class="all-view" role="button">
+                      <span>모아보기</span>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="group-modal">
+              <div class="modal-inner">
+                <h3 class="headline">배너모음</h3>
+                <ul class="modal-list">
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news1.jpg" alt="2024년 하반기 청년 어학시험 응시료 지원사업 추진">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news2.jpg" alt="10월태극기달기">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news3.jpg" alt="2024년 전주시 부모학교 명강사 초청 강연">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news4.jpg" alt="전세사기 피해예방을 위한 주택 안심계약 상담창구 운영">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news5.jpg" alt="2024년 개별주택가격 열람 및 이의신청 기간">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news6.jpg" alt="2024년 공동주택가격 열람 및 이의신청 기간">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news7.jpg" alt="2024-2025절기 인플루엔자(독감) 무료 예방접종">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news8.jpg" alt="2024 제8회 치맥과 함께하는 먹go놀go즐기go 3go 축제(사랑나눔행사)">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news9.jpg" alt="전동성당 미디어파사드 공연 행사 안내">
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/news10.jpg" alt="전주시 국제기구 청년인턴십">
+                    </a>
+                  </li>
+                </ul>
+                <button class="close" aria-label="페이지 닫기"></button>
+              </div>
+            </div>
+          </section>
+          <div class="col-right">
+            <section class="sc-mayor">
+              <h2 class="blind">전주시장 우범기입니다.</h2>
+              <div class="group-mayor">
+                <em class="slogan">
+                  <span class="blind">강한 경제 <br> 전주, 다시 전라도의 수도로!</span>
+                </em>
+                <h2><strong>전주시장 우범기</strong> 입니다.</h2>
+                <ul class="mayor-list">
+                  <li class="mayor-item">
+                    <a href="#">
+                      <span>열린시장실</span>
+                    </a>
+                  </li>
+                  <li class="mayor-item">
+                    <a href="#">
+                      <span>공약&매니페스토</span>
+                    </a>
+                  </li>
+                  <li class="mayor-item">
+                    <a href="#">
+                      <span>시장에게 바란다</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="sc-direct group-mayor-util">
+              <h2 class="blind">바로가기 링크</h2>
+              <ul class="util-list">
+                <li class="util-item">
+                  <a href="#" class="link">
+                    <i class="city1"></i>
+                    <span>전주소식</span>
+                  </a>
+                </li>
+                <li class="util-item">
+                  <a href="#" class="link">
+                    <i class="city2"></i>
+                    <span>청사안내</span>
+                  </a>
+                </li>
+                <li class="util-item">
+                  <a href="#" class="link">
+                    <i class="city3"></i>
+                    <span>조직도</span>
+                  </a>
+                </li>
+                <li class="util-item">
+                  <a href="#" class="link">
+                    <i class="city4"></i>
+                    <span>오시는길</span>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="inner-cont2">
+          <section class="sc-notice">
+            <h2 class="blind">소식</h2>
+            <ul class="notice-list">
+              <li class="notice-item">
+                <h3 class="menu-wrap menu1">
+                  <button data-tab="#noticeTab1" class="menu active">새소식</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab1" class="con-list show">
+                    <li class="con-item main-con">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <em class="cate">민생사회적경제과</em>
+                          <strong class="title">10월 온두레 아울터(공동체 공유공간)프로그램 안내</strong>
+                        </div>
+                        <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">신성장산업과</em>
+                        <div class="title-wrap">
+                          <strong class="title">2024년 제3회 전주시 금융플러스+ 아카데미 신청</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">건축과</em>
+                        <div class="title-wrap">
+                          <strong class="title">「전주 전시컨벤션센터 건립 설계용역」 설계공모 심사위원(후보자) 모집 공고</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">평생학습</em>
+                        <div class="title-wrap">
+                          <strong class="title">완주에서 3일살기 참여자 모집 안내</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">도시계획과</em>
+                        <div class="title-wrap">
+                          <strong class="title">전세사기 피해예방을 위한 「주택 안심계약 상담 창구」운영</strong>
+                          <time class="time" datetime="2024.10.02"><span class="year">2024.10.</span>02</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">중대재해예방</em>
+                        <div class="title-wrap">
+                          <strong class="title"> 2024년 지진안전주간 지진행동요령등 홍보</strong>
+                          <time class="time" datetime="2024.10.02"><span class="year">2024.10.</span>02</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="notice-item">
+                <h3 class="menu-wrap">
+                  <button data-tab="#noticeTab2" class="menu">고시ㆍ공고</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab2" class="con-list">
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">도로구간(원화전1길 2차 종속 설정) 고시</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">자동차 운행정지명령 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">「전주미래도시포럼 2024-청년미래랩 1기」 참가자 모집 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">불법주정차 무인단속 CCTV 설치 운영 행정예고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">2024-2025절기 코로나19 임시예방접종 알림 및 위탁의료기관 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">「전주 전시컨벤션센터 건립 설계용역」 설계공모 심사위원(후보자) 모집 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">자동차의무(책임)보험 과태료 사전 고지서(2024년 9월)반송분 공시송달 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">전주시청</em>
+                        <div class="title-wrap">
+                          <strong class="title">자동차의무(책임)보험 가입명령서(2024년 9월)반송분 공시송달 공고</strong>
+                          <time class="time" datetime="2024.10.04"><small class="year">2024.10.</small>04</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="notice-item">
+                <h3 class="menu-wrap">
+                  <button data-tab="#noticeTab3" class="menu">공사알림</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab3" class="con-list">
+                    <li class="con-item main-con">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">한부모가족 공동생활가정형(매입임대) 주거지원 입주자 모집 안내</strong>
+                        </div>
+                        <time class="time" datetime="2024.07.22"><span class="year">2024.07.</span>22</time>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">2024 전주얼티밋뮤직페스티벌(JUMP)무료관람 희망자 신청안내</strong>
+                          <time class="time" datetime="2024.07.18"><span class="year">2024.07.</span>18</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">홀트아동복지회 협력 '한부모 근로역량강화를 위한 교육훈련지원사업' 신청 안내</strong>
+                          <time class="time" datetime="2024.07.04"><span class="year">2024.07.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">상병수당 신청 안내</strong>
+                          <time class="time" datetime="2024.07.02"><span class="year">2024.07.</span>02</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">2024 청년신체건강증진서비스 및 초등돌봄서비스 학습지원 사업 이용자 모집안내</strong>
+                          <time class="time" datetime="2024.07.02"><span class="year">2024.07.</span>02</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <strong class="title">2024년 2차 한부모가족 주거자금 소액대출연계 '나는 가장이다' 안내</strong>
+                          <time class="time" datetime="2024.06.19"><span class="year">2024.06.</span>19</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="notice-item">
+                <h3 class="menu-wrap">
+                  <button data-tab="#noticeTab4" class="menu">일자리정보</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab4" class="con-list">
+                    <li class="con-item main-con">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <em class="cate">의료법인 영경의료재단 전주병원</em>
+                          <strong class="title">[전주병원] 병원인사,병원총무 행정직 경력자 모집...</strong>
+                        </div>
+                        <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">사랑드림재가복지센터</em>
+                        <div class="title-wrap">
+                          <strong class="title">평화동 거주 4등급 남자 어르신 방문요양</strong>
+                          <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">사랑드림재가복지센터</em>
+                        <div class="title-wrap">
+                          <strong class="title">효자동 호남제일고등학교 옆 4등급 78세 어르신...</strong>
+                          <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">쿠쿠서전주점</em>
+                        <div class="title-wrap">
+                          <strong class="title">쿠쿠 직원 모집합니다. 초보자환영</strong>
+                          <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">중앙요양병원</em>
+                        <div class="title-wrap">
+                          <strong class="title">중앙요양병원에서 함께 근무하실 미화선생님 구인합니...</strong>
+                          <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">대한주택관리(주)</em>
+                        <strong class="title">기계설비 유지관리자 구인</strong>
+                        <time class="time" datetime="2024.03.18"><span class="year">2024.03.</span>18</time>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="notice-item">
+                <h3 class="menu-wrap">
+                  <button data-tab="#noticeTab5" class="menu">시험채용</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab5" class="con-list">
+                    <li class="con-item main-con">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <em class="cate">공원녹지과</em>
+                          <strong class="title">전주시 완산구 '24년 가을철 및 '25년 봄철 산불예방 근로자 2차 평가일정 공고</strong>
+                        </div>
+                        <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공원녹지과</em>
+                        <div class="title-wrap">
+                          <strong class="title">전주시 덕진구 '24년 가을철 및 '25년 봄철 산불예방 근로자 2차 평가일정 공고</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">시설관리공단</em>
+                        <div class="title-wrap">
+                          <strong class="title">체육공원운영부 단시간근로자(사무안내) 채용 서류심사 합격자 및 면접시험 시행계획 공고</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">시설관리공단</em>
+                        <div class="title-wrap">
+                          <strong class="title">2024년 전주시설공단 하반기 청년 체험형 인턴 채용공고</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">총무과</em>
+                        <div class="title-wrap">
+                          <strong class="title">2024년 제9회 전주시 지방임기제공무원 합격자공고(박물관학예, 유아기후환경교육관, 작업치료사)</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">아동복지과</em>
+                        <div class="title-wrap">
+                          <strong class="title">2024년 전주시립(국공립) 효천한울어린이집 보육교직원 모집</strong>
+                          <time class="time" datetime="2024.10.03"><span class="year">2024.10.</span>03</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="notice-item">
+                <h3 class="menu-wrap">
+                  <button data-tab="#noticeTab6" class="menu">보도자료</button>
+                </h3>
+                <div class="con">
+                  <ul id="noticeTab6" class="con-list">
+                    <li class="con-item main-con">
+                      <a href="#" class="text-wrap">
+                        <div class="title-wrap">
+                          <em class="cate">공보담당관</em>
+                          <strong class="title">전주시, 장애인활동지원 신규기관 활동지원사 교육 실시</strong>
+                        </div>
+                        <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공보담당관</em>
+                        <div class="title-wrap">
+                          <strong class="title">전주시정연구원 ‘정책브리프 제3호’ 발간, 전주시 고향사랑기부제 활성화 방안 제시</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공보담당관</em>
+                        <div class="title-wrap">
+                          <strong class="title">전주·완주 상생 이끄는 도서관 문화여행</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공보담당관</em>
+                        <div class="title-wrap">
+                          <strong class="title">전세 사기 피해 예방 위한 주택 안심계약 상담 창구 운영</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공보담당관</em>
+                        <div class="title-wrap">
+                          <strong class="title">독서의 계절, 특성화도서관에서 만나는 특별한 체험</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="con-item">
+                      <a href="#" class="text-wrap">
+                        <em class="cate">공보담당관</em>
+                        <div class="title-wrap">
+                          <strong class="title">‘전주미래도시포럼 2024’ 오는 11월 개최</strong>
+                          <time class="time" datetime="2024.10.04"><span class="year">2024.10.</span>04</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-plus" aria-label="button">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="sc-event">
+            <h2 class="headline">행사/강좌/공모</h2>
+            <div class="group-event">
+              <div class="top-area">
+                <div class="fraction">
+                  <span class="curr">1</span>
+                  <i>/</i>
+                  <span class="total">?</span>
+                </div>
+                <a href="#" class="plus">
+                  <span class="blind">더보기</span>
+                </a>
+              </div>
+              <div class="content-area">
+                <div class="swiper">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/event1.png" alt="2024년 신혼부부 및 청년 공공임대주택 임대보증금 지원(융자) 신청">
+                        </div>
+                        <div class="text-area">
+                          <em>지원사업</em>
+                          <strong>2024년 신혼부부 및 청년 공공임대주택 임대보증금 지원(융자) 신청</strong>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="swiper-slide">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/event2.jpg" alt="2024년 디지털배움터 기관/단체 찾아가는 교육 신청 안내">
+                        </div>
+                        <div class="text-area">
+                          <em>교육세미나</em>
+                          <strong>2024년 디지털배움터 기관/단체 찾아가는 교육 신청 안내</strong>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="swiper-slide">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/event3.jpg" alt="2024년 청년 면접정장 무료대여 지원사업 안내">
+                        </div>
+                        <div class="text-area">
+                          <em>지원사업</em>
+                          <strong>2024년 청년 면접정장 무료대여 지원사업 안내</strong>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="swiper-slide">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/event4.jpg" alt="전주시보건소 마음치유센터 전문심리상담 상시운영">
+                        </div>
+                        <div class="text-area">
+                          <em>교육세미나</em>
+                          <strong>전주시보건소 마음치유센터 전문심리상담 상시운영</strong>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="swiper-slide">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/event5.jpg" alt="전주시 탄소중립 교육 무료 신청(성인)">
+                        </div>
+                        <div class="text-area">
+                          <em>교육세미나</em>
+                          <strong>전주시 탄소중립 교육 무료 신청(성인)</strong>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <button class="btn prev" aria-label="이전슬라이드"></button>
+                  <button class="btn next" aria-label="다음슬라이드"></button>
+                </div>
+              </div>
+              <div class="control-area">
+                <button class="btn prev" aria-label="이전슬라이드"></button>
+                <button class="btn next" aria-label="다음슬라이드"></button>
+              </div>
+            </div>
+          </section>
+          <section class="sc-banner">
+            <h2 class="blind">광고 배너</h2>
+            <div class="group-banner">
+              <div class="swiper">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner1.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner2.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner3.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner4.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner5.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner6.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner7.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner8.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner9.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">
+                      <div class="img-area">
+                        <img src="./assets/images/contents/banner10.jpg" alt>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-control">
+                <div class="fraction">
+                  <span class="curr">1</span>
+                  <i>/</i>
+                  <span class="total">?</span>
+                </div>
+                <div class="control">
+                  <button class="btn prev" aria-label="이전슬라이드"></button>
+                  <button class="btn pause" aria-label="슬라이드 정지"></button>
+                  <button class="btn next" aria-label="다음슬라이드"></button>
+                </div>
+                <a href="#" class="all-view">
+                  <span>모아보기</span>
+                </a>
+              </div>
+            </div>
+            <div class="group-modal">
+              <div class="modal-inner">
+                <h3 class="headline">알림모음</h3>
+                <ul class="modal-list">
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner1.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner2.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner3.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner4.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner5.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner6.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner7.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner8.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner9.jpg" alt>
+                    </a>
+                  </li>
+                  <li class="modal-item">
+                    <a href="#">
+                      <img src="./assets/images/contents/banner10.jpg" alt>
+                    </a>
+                  </li>
+                </ul>
+                <button class="close" aria-label="페이지 닫기"></button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="inner-cont3">
+        <div class="inner">
+          <section class="sc-policy">
+            <div class="policy-inner">
+              <h2 class="blind">정책 메뉴</h2>
+              <ul class="tab-list">
+                <li class="tab-item">
+                  <a href="#" class="tab-menu active" data-tab="#policyTab1">복지</a>
+                </li>
+                <li class="tab-item">
+                  <a href="#" class="tab-menu" data-tab="#policyTab2">민원</a>
+                </li>
+                <li class="tab-item">
+                  <a href="#" class="tab-menu" data-tab="#policyTab3">행정</a>
+                </li>
+                <li class="tab-item">
+                  <a href="#" class="tab-menu" data-tab="#policyTab4">자주 찾는 서비스</a>
+                </li>
+                <li class="tab-item">
+                  <a href="#" class="tab-menu" data-tab="#policyTab5">챗봇 서비스</a>
+                </li>
+              </ul>
+              <div class="group-policy">
+                <div id="policyTab1" class="con show">
+                  <div class="swiper">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0101.svg" alt>
+                            </i>
+                          </span>
+                          <span>청년</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0103.svg" alt>
+                            </i>
+                          </span>
+                          <span>우리들놀이터</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0102.svg" alt>
+                            </i>
+                          </span>
+                          <span>어린이·청소년</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0104.svg" alt>
+                            </i>
+                          </span>
+                          <span>임신·출산지원</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0105.svg" alt>
+                            </i>
+                          </span>
+                          <span>기초연금안내</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0106.svg" alt>
+                            </i>
+                          </span>
+                          <span>일자리 정보</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0107.svg" alt>
+                            </i>
+                          </span>
+                          <span>시민안전보험</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0108.svg" alt>
+                            </i>
+                          </span>
+                          <span>장애인</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0109.svg" alt>
+                            </i>
+                          </span>
+                          <span>어르신</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <button class="btn prev" aria-label="이전슬라이드"></button>
+                    <button class="btn next" aria-label="다음슬라이드"></button>
+                  </div>
+                </div>
+                <div id="policyTab2" class="con">
+                  <div class="swiper">
+                    <ul class="swiper-wrpper">
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0201.svg" alt>
+                            </i>
+                          </span>
+                          <span>민원 편람</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0202.svg" alt>
+                            </i>
+                          </span>
+                          <span>무인민원 발급</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0203.svg" alt>
+                            </i>
+                          </span>
+                          <span>민원서식</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0204.svg" alt>
+                            </i>
+                          </span>
+                          <span>국민신문고</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0205.svg" alt>
+                            </i>
+                          </span>
+                          <span>공익신고</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0206.svg" alt>
+                            </i>
+                          </span>
+                          <span>전화상담실</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0207.svg" alt>
+                            </i>
+                          </span>
+                          <span>민원상담예약</span>
+                        </a>
+                      </li>
+                      <li class="policy-item">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0208.svg" alt>
+                            </i>
+                          </span>
+                          <span>차량 등록 업무</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <button class="btn prev" aria-label="이전슬라이드"></button>
+                    <button class="btn next" aria-label="다음슬라이드"></button>
+                  </div>
+                </div>
+                <div id="policyTab3" class="con">
+                  <div class="swiper">
+                    <ul class="swiper-wrpper">
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0301.svg" alt>
+                            </i>
+                          </span>
+                          <span>청사안내</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0302.svg" alt>
+                            </i>
+                          </span>
+                          <span>시정백서</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0303.svg" alt>
+                            </i>
+                          </span>
+                          <span>적극행정</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0304.svg" alt>
+                            </i>
+                          </span>
+                          <span>예산공개</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0305.svg" alt>
+                            </i>
+                          </span>
+                          <span>업무추진비</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0408.png" alt>
+                            </i>
+                          </span>
+                          <span>자치법규</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0306.svg" alt>
+                            </i>
+                          </span>
+                          <span>공연·행사</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0307.svg" alt>
+                            </i>
+                          </span>
+                          <span>데이터포털</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0308.svg" alt>
+                            </i>
+                          </span>
+                          <span>생활지리정보</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <button class="btn prev" aria-label="이전슬라이드"></button>
+                    <button class="btn next" aria-label="다음슬라이드"></button>
+                  </div>
+                </div>
+                <div id="policyTab4" class="con">
+                  <div class="swiper">
+                    <ul class="swiper-wrpper">
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0401.svg" alt>
+                            </i>
+                          </span>
+                          <span>통합신청지원</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0505.svg" alt>
+                            </i>
+                          </span>
+                          <span>불법주·정차 사전단속 문자알림서비스</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0501.svg" alt>
+                            </i>
+                          </span>
+                          <span>상하수도 요금조회·납부</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0502.svg" alt>
+                            </i>
+                          </span>
+                          <span>과태료 조회·납부</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0503.svg" alt>
+                            </i>
+                          </span>
+                          <span>지방세(위택스)</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0405.svg" alt>
+                            </i>
+                          </span>
+                          <span>맞춤복지검색</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0407.svg" alt>
+                            </i>
+                          </span>
+                          <span>공유누리</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0406.svg" alt>
+                            </i>
+                          </span>
+                          <span>자매/우호도시</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <button class="btn prev" aria-label="이전슬라이드"></button>
+                    <button class="btn next" aria-label="다음슬라이드"></button>
+                  </div>
+                </div>
+                <div id="policyTab5" class="con">
+                  <div class="swiper">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0504.png" alt>
+                            </i>
+                          </span>
+                          <span>지방세 챗봇</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0506.svg" alt>
+                            </i>
+                          </span>
+                          <span>챗봇서비스(전화상담실)</span>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#" class="slide">
+                          <span class="policy-icon">
+                            <i>
+                              <img src="./assets/images/main/ico_sector0507.svg" alt>
+                            </i>
+                          </span>
+                          <span>챗봇서비스(킥보드)</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <button class="btn prev" aria-label="이전슬라이드"></button>
+                    <button class="btn next" aria-label="다음슬라이드"></button>
+                  </div>
+                </div>
+              </div>
+              <button class="plus">
+                <span>더보기</span>
+                <i></i>
+              </button>
+              <div class="group-modal">
+                <div class="modal-inner">
+                  <h3 class="headline">QUICK SERVICE</h3>
+                  <ul class="modal-list">
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0101.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">청년</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0103.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">우리들놀이터</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0102.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">어린이·청소년</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0104.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">임신·출산지원</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0105.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">기초연금안내</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0106.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">일자리 정보</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0107.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">시민안전보험</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0108.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">장애인</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0109.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">어르신</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0201.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">민원 편람</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0202.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">무인민원 발급</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0203.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">민원서식</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0204.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">국민신문고</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0205.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">공익신고</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0206.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">전화상담실</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0207.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">민원상담예약</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0208.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">차량 등록 업무</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0301.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">청사안내</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0302.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">시정백서</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0303.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">적극행정</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0304.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">예산공개</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0305.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">업무추진비</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0408.png" alt>
+                          </i>
+                        </span>
+                        <em class="title">자치법규</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0306.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">공연·행사</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0307.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">데이터포털</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0308.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">생활지리정보</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0401.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">통합신청지원</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0505.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">불법주·정차 사전단속 문자알림서비스</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0501.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">상하수도 요금조회·납부</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0502.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">과태료 조회·납부</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0503.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">지방세(위택스)</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0405.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">맞춤복지검색</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0407.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">공유누리</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0406.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">자매/우호도시</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0504.png" alt>
+                          </i>
+                        </span>
+                        <em class="title">지방세 챗봇</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0506.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">챗봇서비스(전화상담실)</em>
+                      </a>
+                    </li>
+                    <li class="modal-item">
+                      <a href="#" class="item">
+                        <span class="icon">
+                          <i>
+                            <img src="./assets/images/main/ico_sector0507.svg" alt>
+                          </i>
+                        </span>
+                        <em class="title">챗봇서비스(킥보드)</em>
+                      </a>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn-close">
+                    <i></i>
+                    <span class="blind">모두보기 닫기</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <span class="policy-icon">
+            <div class="inner-flex">
+              <section class="sc-newsroom">
+                <div class="group-header">
+                  <h2 class="headline">시정뉴스룸</h2>
+                  <div class="plus">
+                    <a href="#">
+                      <span class="blind">더보기</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="group-newsroom">
+                  <ul class="newsroom-list">
+                    <li class="newsroom-item">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/newsroom1.jpg" alt="전주시 전북창조경제혁신센터 협약식">
+                        </div>
+                        <div class="text-area">
+                          <em>사진자료</em>
+                          <strong>전주시 전북창조경제혁신센터 협약식</strong>
+                          <time datetime="2024.10.02">2024-10-02</time>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="newsroom-item">
+                      <a href="#">
+                        <div class="img-area">
+                          <img src="./assets/images/contents/newsroom2.jpeg" alt="전주시-전주시의회-쿠뮤필름스튜디오 투자양행각서 체결식">
+                        </div>
+                        <div class="text-area">
+                          <em>영상자료</em>
+                          <strong>전주시-전주시의회-쿠뮤필름스튜디오 투자양행각서 체결식</strong>
+                          <time datetime="2024.06.25">2024-06-25</time>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <section class="sc-sns">
+                <div class="group-header">
+                  <h2 class="headline">전주소식</h2>
+                  <ul class="sns-list">
+                    <li class="sns-item kakaoch">
+                      <a href="#">
+                        <span class="blind">카카오채널</span>
+                      </a>
+                    </li>
+                    <li class="sns-item blog">
+                      <a href="#">
+                        <span class="blind">네이버블로그</span>
+                      </a>
+                    </li>
+                    <li class="sns-item facebook">
+                      <a href="#">
+                        <span class="blind">페이스북</span>
+                      </a>
+                    </li>
+                    <li class="sns-item youtube">
+                      <a href="#">
+                        <span class="blind">유튜브</span>
+                      </a>
+                    </li>
+                    <li class="sns-item instar">
+                      <a href="#">
+                        <span class="blind">인스타그램</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <div class="swiper">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <div class="img-area">
+                            <i class="youtube"></i>
+                            <img src="./assets/images/contents/sns1.jpg" alt="전주 맛집들이 모여있는 골목을 소개합니다~">
+                          </div>
+                          <div class="text-area">
+                            <em>전주 맛집들이 모여있는 골목을 소개합니다~</em>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <div class="img-area">
+                            <i class="blog"></i>
+                            <img src="./assets/images/contents/sns2.jpg" alt="제17회 전북여성영화제 ‘희허락락’ 여성영화 관람 후기">
+                          </div>
+                          <div class="text-area">
+                            <em>제17회 전북여성영화제 ‘희허락락’ 여성영화 관람 후기</em>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <div class="img-area">
+                            <i class="blog"></i>
+                            <img src="./assets/images/contents/sns3.jpg" alt="제17회 전북여성영화제 ‘희허락락’ 여성영화 관람 후기">
+                          </div>
+                          <div class="text-area">
+                            <em>제17회 전북여성영화제 ‘희허락락’ 여성영화 관람 후기</em>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <div class="img-area">
+                            <i class="blog"></i>
+                            <img src="./assets/images/contents/sns4.jpg" alt="국립전주박물관 고(故) 이건희 회장 기증품 전시 국립전주박물관에서 고(故) 이건희 삼성그룹 전 회장이 기증한 작품들을 2024. 8. 12. (월) ~ 12. 1. (일)까지 전시하고 있습니다.">
+                          </div>
+                          <div class="text-area">
+                            <em>국립전주박물관 고(故) 이건희 회장 기증품 전시 국립전주박물관에서 고(故) 이건희 삼성그룹 전 회장이 기증한 작품들을 2024. 8. 12. (월) ~ 12. 1. (일)까지 전시하고 있습니다.</em>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="#">
+                          <div class="img-area">
+                            <i class="blog"></i>
+                            <img src="./assets/images/contents/sns4.jpg" alt="안녕하세요. 전주시입니다. 매주 화요일, 전주의 소식을 전달드리는 전주시 주간뉴스입니다.">
+                          </div>
+                          <div class="text-area">
+                            <em>안녕하세요. 전주시입니다. 매주 화요일, 전주의 소식을 전달드리는 전주시 주간뉴스입니다.</em>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="swiper-bottom">
+                      <div class="control">
+                        <button class="btn prev" aria-label="이전슬라이드"></button>
+                        <div class="fraction">
+                          <span class="curr">1</span>
+                          <i class="slash">/</i>
+                          <span class="total">?</span>
+                        </div>
+                        <button class="btn next" aria-label="다음슬라이드"></button>
+                        <button class="btn pause" aria-label="슬라이드 정지"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="sc-newsletter">
+                <div class="group-header">
+                  <h2 class="headline">전주다움</h2>
+                  <a href="#" class="plus">
+                    <span class="blind">더보기</span>
+                  </a>
+                </div>
+                <div class="group-newsletter">
+                  <span class="img">
+                    <img src="./assets/images/contents/newsletter1.jpg" alt>
+                  </span>
+                  <button class="shortcut">
+                    <span>소식지 바로보기</span>
+                  </button>
+                </div>
+              </section>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="fixed">
+        <aside class="quick-menu-area">
+          <ul class="quick-list">
+            <li class="quick-item aside-icon1">
+              <a href="#">
+                <span>챗봇 서비스</span>
+              </a>
+            </li>
+            <li class="quick-item aside-icon2">
+              <a href="#">
+                <span>건강365</span>
+              </a>
+            </li>
+            <li class="quick-item aside-icon3">
+              <a href="#">
+                <span>전북소개</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <a href="#" class="btn-top" title="상단으로 가기">
+          <span>TOP</span>
+        </a>
+      </div>
+    </main>
+    <footer id="footer">
+      <h2 class="blind">전주시청 Footer</h2>
+      <div class="sitemap-area">
+        <div class="inner">
+          <em>배너모음</em>
+          <div class="swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href="#">국민건강보험</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">새주소안내</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">위택스</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">안전드림</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">생활대형폐기물 배출신고</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">정부24</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">중앙선거관리위원회</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">응급의료정보센터</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">생활안전정보</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">중앙응급의료센터</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">국민콜110</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">국민재난안전포털</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">한국건강관리협회</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">국민권익위원회</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">온라인행정심판</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">안전신문고</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">병무청</a>
+              </li>
+              <li class="swiper-slide">
+                <a href="#">국민연금</a>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-control">
+            <button class="btn prev" aria-label="이전슬라이드"></button>
+            <button class="btn pause" aria-label="슬라이드 정지"></button>
+            <button class="btn next" aria-label="다음슬라이드"></button>
+          </div>
+        </div>
+      </div>
+      <div class="link-area">
+        <ul class="link-list inner">
+          <li class="link-item">
+            <a href="#" class="item">완산구 주민(행정복지)센터</a>
+          </li>
+          <li class="link-item">
+            <a href="#" class="item">덕진구 주민(행정복지)센터</a>
+          </li>
+          <li class="link-item">
+            <a href="#"  class="item plus">직속기관 · 사업소</a>
+            <div class="box">
+              <ul class="sub-link-list">
+                <li class="sub-link-item">
+                  <a href="#">상하수도본부</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">전주동물원</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">도서관본부</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">농업기술센터</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">보건소</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">평생학습관</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">전주박물관</a>
+                </li>
+                <li class="sub-link-item">
+                  <a href="#">전주시립예술단</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="link-item">
+            <a href="#" class="item">유관기관 및 기타</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-info-area inner">
+        <div class="footer-left">
+          <ul class="address-link-list">
+            <li class="link-item">
+              <a href="#">
+                <span class="point">개인정보처리방침</span>
+              </a>
+            </li>
+            <li class="link-item">
+              <a href="#">저작권정책</a>
+            </li>
+            <li class="link-item">
+              <a href="#">영상정보처리기기 운영방침</a>
+            </li>
+            <li class="link-item">
+              <a href="#">뷰어다운로드</a>
+            </li>
+            <li class="link-item">
+              <a href="#">오시는 길</a>
+            </li>
+          </ul>
+          <ul class="address-list">
+            <li class="list-item">
+              <a href="#">(우)54994 전북특별자치도 전주시 완산구 노송광장로 10</a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <span class="bold">대표전화</span>
+                063-222-1000
+                <span class="absolute">월~금 : 08:30~18:30 (시간외는 당직실로 연결)</span>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <span class="bold">팩스</span>
+                063-281-5000
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#">
+                <span class="bold">당직실</span>
+                063-281-2222, 2122, 2264(야간, 공휴일)
+              </a>
+            </li>
+          </ul>
+          <small class="copy">COPYRIGHT © 2023 JEONJU CITY. ALL RIGHTS RESERVED.</small>
+        </div>
+        <div class="footer-right">
+          <span class="blind">정보통신접근성 품질인증서</span>
+        </div>
+      </div>
+      <div class="footer-bottom-area">
+        <p class="inner">본 웹사이트는 이메일 주소가 무단 수집되는 것을 거부하며, 위반 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

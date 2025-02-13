@@ -1,0 +1,26 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+@font-face {
+	font-family: 'TheJamsil';
+	font-weight: 700;
+	font-display: swap;
+	src: url('../fonts/The\ Jamsil\ OTF\ 5\ Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'TheJamsil';
+	font-weight: 500;
+	font-display: swap;
+	src: url('../fonts/The\ Jamsil\ OTF\ 4\ Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'TheJamsil';
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/The\ Jamsil\ OTF\ 3\ Regular.woff2') format('woff2'),;
+}
+@font-face {
+	font-family: 'TheJamsil';
+	font-weight: 300;
+	font-display: swap;
+	src: url('../fonts/The\ Jamsil\ OTF\ 2\ Light.woff2') format('woff2');
+}

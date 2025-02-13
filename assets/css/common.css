@@ -1,0 +1,58 @@
+.blind {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0,0,0,0);
+}
+
+.wrap {
+  min-width: 1465px;
+}
+
+.scroll-hidden {
+  overflow: hidden;
+}
+
+.inner{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: content-box;
+}
+
+.flex {
+  display: flex;
+}
+
+button {
+  color: var(--color-base);
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--sizeTitleHig);
+  padding: 0 20px 0 25px;
+  border-bottom: 1px solid var(--color-grayE6);
+}
+
+.headline {
+  font-family: var(--font-TheJamsil);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* sp_sns */
+.sc-sns .group-header .sns-item.kakaoch::before,
+.sc-sns .group-header .sns-item.blog::before,
+.sc-sns .group-header .sns-item.facebook::before,
+.sc-sns .group-header .sns-item.youtube::before,
+.sc-sns .group-header .sns-item.instar::before
+ {
+  background-image: url(../images/main/sp_sns.png);
+  background-size: 20px 100px;
+  background-repeat: no-repeat;
+}

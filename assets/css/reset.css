@@ -1,0 +1,59 @@
+/* 변수 */
+:root {
+--color-base: #333;
+--color-point: #005bac;
+--color-point-rgba: rgba(0,91,172);
+--color-point-light: #2475de;
+--color-green: #00a161;
+--color-light-green: #49bb48;
+--color-black1: #111;
+--color-white: #fff;
+--color-red: #cf0e52;
+--color-orange: #f26d0c;
+--color-gray4: #444;
+--color-gray5: #555;
+--color-gray6: #666;
+--color-gray8: #888;
+--color-gray9: #999;
+--color-boxGray: #f8f9fa;
+--color-btnGray: #edeef1;
+--color-yellow: yellow;
+--color-deepblue: #013664;
+--color-gray8: #888;
+--color-gray9: #999;
+--color-grayC5: #c5c5c5;
+--color-grayE6: #e6e6e6;
+--color-grayLight: #f4f6f8;
+--color-grayB5: #b5b5b5;
+--font-tenada: 'Tenada', Sans-serif;
+--font-pretendard: 'Pretendard', Sans-serif;
+--font-TheJamsil: 'TheJamsil', Sans-serif;
+--font-Roboto: 'Roboto', Sans-serif;
+--font-PyeongChangPeace: 'PyeongChangPeace', Sans-serif;
+--font-HSBombaram: 'HSBombaram', Sans-serif;
+--font-GmarketSans: 'GmarketSans', Sans-serif;
+--trans-ani: 0.3s ease 0s;
+--sizeHig: 420px;
+--sizeLeft: 75px;
+--sizeSlideHig: 360px;
+}
+
+/* 초기화 */
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul {list-style: none;}
+fieldset, input {border: 0;}
+
+/* 세팅 */
+body {
+  font-family: 'Pretendard', '맑은 고딕', Sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--color-base);
+}
